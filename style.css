@@ -36,16 +36,30 @@ section {
 }
 
 .question h3 {
+    font-size: 1.5rem;
+}
+
+.question h3:hover {
     font-size: 1.7rem;
 }
 
+.faq.active .answer {
+    max-height: 300px;
+}
+
 .title {
-   font-size: 2rem;
+   font-size: 3rem;
    margin: 2rem 0rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.2s ease;
 }
 
 .answer p {
     padding-top: 1rem;
     line-height: 1.7;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
