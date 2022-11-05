@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto:wght@400;700&display=swap');
 
 
 * {
@@ -8,21 +8,44 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #3366cc;
+    font-family: 'Montserrat', sans-serif;
+    background: #0A2662;
     color: #fff;
 }
 
 section {
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.faq {
+    max-width: 800px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.7rem;
+}
+
 .title {
-   font-size: 3rem;
+   font-size: 2rem;
    margin: 2rem 0rem;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.7;
+    font-size: 1.3rem;
 }
